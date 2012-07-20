@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Glimpse | Demo</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/magazine.css" media="all">
+
+</head>
+<body>
+
+  <div id="magazine-component" class="fullscreen-active">
+    <div class="wrapper">
+
+      <div id="content">
+        <div class="grid-view-wrapper">
+          <a class="nav left arrow" href="#"></a>
+          <a class="nav right arrow" href="#"></a>
+          <div class="grid-view">
+            <div class="container"></div>
+
+            <ul>
+
+              <li>
+                <a href="#page-0">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <div class="thumb-img"></div>
+                      <img class="thumb-img" src="images/thumbs/p1.jpg">
+                    </div>
+                    <span class="grid-index">1</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+              <li>
+                <a href="#page-2">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p2.jpg">
+                      <img class="thumb-img" src="images/thumbs/p3.jpg">
+                    </div>
+                    <span class="grid-index">2 - 3</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+              <li>
+                <a href="#page-4">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p4.jpg">
+                      <img class="thumb-img" src="images/thumbs/p5.jpg">
+                    </div>
+                    <span class="grid-index">4 - 5</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+              <li>
+                <a href="#page-6">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p6.jpg">
+                      <img class="thumb-img" src="images/thumbs/p7.jpg">
+                    </div>
+                    <span class="grid-index">6 - 7</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+              <li>
+                <a href="#page-8">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p8.jpg">
+                      <img class="thumb-img" src="images/thumbs/p9.jpg">
+                    </div>
+                    <span class="grid-index">8 - 9</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+              <li>
+                <a href="#page-10">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p10.jpg">
+                      <img class="thumb-img" src="images/thumbs/p11.jpg">
+                    </div>
+                    <span class="grid-index">10 - 11</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+                                                            
+              <li>
+                <a href="#page-100">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p12.jpg">
+                      <div class="thumb-img"></div>
+                    </div>
+                    <span class="grid-index">12</span>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="catalogue-wrapper">
+          <!-- 
+            Assets set with the imageurl attribute will be loaded on demand.
+            The only one that requires the initial background-image style is 
+            page 2 which extracts the aspect ratio data.
+          -->
+          <div id="catalogue">
+            <div page="1" imageurl="images/pages/p1.jpg" style="background-image:url(images/pages/p1.jpg);"></div>
+            <div page="2" imageurl="images/pages/p2.jpg" style="background-image:url(images/pages/p2.jpg);"></div>
+            <div page="3" imageurl="images/pages/p3.jpg" style="background-image:url(images/pages/p3.jpg);"></div>
+            <div page="4" imageurl="images/pages/p4.jpg" style="background-image:url(images/pages/p4.jpg);"></div>
+            <div page="5" imageurl="images/pages/p5.jpg" style="background-image:url(images/pages/p5.jpg);"></div>
+            <div page="6" imageurl="images/pages/p6.jpg"></div>
+            <div page="7" imageurl="images/pages/p7.jpg"></div>
+            <div page="8" imageurl="images/pages/p8.jpg"></div>
+            <div page="9" imageurl="images/pages/p9.jpg"></div>
+            <div page="10" imageurl="images/pages/p10.jpg"></div>
+            <div page="11" imageurl="images/pages/p11.jpg"></div>
+            <div page="12" imageurl="images/pages/p12.jpg"></div>
+          </div>
+
+          <div class="shadows" style="display:none;">
+            <img class="left-shadow" src="images/spreadShadowLeft.png">
+            <img class="right-shadow" src="images/spreadShadowRight.png">
+          </div>
+        </div>
+
+      </div><!-- end content -->
+
+
+      <div class="product-list">
+        <ul>
+          <li data-x="0.0245614" data-y="0.59456" data-width="0.957895" data-height="0.391192" data-id="367035" ddkey="38644408112601546" data-uid="847" data-page="4" data-targetx="0.485965" data-targety="0.777202"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367035.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Robert Rodriguez &#039;Python&#039;...<br><span>$995.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.247368" data-y="0.226391" data-width="0.601754" data-height="0.481242" data-id="367032" ddkey="38644408684035717" data-uid="848" data-page="3" data-targetx="0.530701" data-targety="0.454077"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367032.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>MARC BY MARC JACOBS Colorblock Halter...<br><span>$89.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.192982" data-y="0.633894" data-width="0.803509" data-height="0.354463" data-id="367040" ddkey="20630009495995068" data-uid="4977" data-page="5" data-targetx="0.692982" data-targety="0.8188"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367040.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Robert Rodriguez Double Zip Top<br><span>$265.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.484211" data-y="0.425134" data-width="0.107018" data-height="0.145722" data-id="367029" ddkey="38644410560880313" data-uid="6037" data-page="1" data-targetx="0.520176" data-targety="0.484628"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367029.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Miraclesuit &#039;Jena&#039; One...<br><span>$150.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.426316" data-y="0.270725" data-width="0.275439" data-height="0.379534" data-id="367042" ddkey="38644407389047232" data-uid="6989" data-page="6" data-targetx="0.546491" data-targety="0.447539"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367042.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>ALDO &#039;Hamblet&#039; Pump<br><span>$109.95</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.326316" data-y="0.382924" data-width="0.480702" data-height="0.554981" data-id="367045" ddkey="20630008210508627" data-uid="6994" data-page="7" data-targetx="0.457895" data-targety="0.635119"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367045.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Trina Turk &#039;Idris&#039; Print...<br><span>$298.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.142105" data-y="0.30401" data-width="0.564912" data-height="0.148771" data-id="367039" ddkey="38644406343061105" data-uid="7067" data-page="5" data-targetx="0.407017" data-targety="0.36546"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367039.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>MICHAEL Michael Kors...<br><span>$99.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.719298" data-y="0.369171" data-width="0.0824561" data-height="0.0505181" data-id="367050" ddkey="38644407476852258" data-uid="7071" data-page="8" data-targetx="0.731579" data-targety="0.379411"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367050.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Nordstrom Flat Edge Bangles (Set of 3)<br><span>$33.90</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.177193" data-y="0.217335" data-width="0.768421" data-height="0.680466" data-id="367052" ddkey="38644407884168186" data-uid="7072" data-page="9" data-targetx="0.54386" data-targety="0.544633"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367052.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>B Brian Atwood &#039;Fontanne&#039; Pump<br><span>$350.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.114035" data-y="0.0323834" data-width="0.784211" data-height="0.59456" data-id="367053" ddkey="20630008151040957" data-uid="7073" data-page="10" data-targetx="0.488596" data-targety="0.316714"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367053.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>MARC BY MARC JACOBS &#039;Ozzie -...<br><span>$428.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.207018" data-y="0.634715" data-width="0.624561" data-height="0.334197" data-id="367054" ddkey="38644406379854928" data-uid="7074" data-page="10" data-targetx="0.501755" data-targety="0.788864"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367054.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>MARC BY MARC JACOBS &#039;Ozzie&#039;...<br><span>$198.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.410526" data-y="0.129534" data-width="0.585965" data-height="0.164508" data-id="367033" ddkey="20630011985711995" data-uid="7269" data-page="4" data-targetx="0.685965" data-targety="0.198839"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367027.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>MICHAEL Michael Kors...<br><span>$105.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.447368" data-y="0.764391" data-width="0.170175" data-height="0.0655957" data-id="367031" ddkey="20630008305508777" data-uid="8198" data-page="1" data-targetx="0.514912" data-targety="0.783822"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367031.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>ALDO &#039;Vivolo&#039; Sandal<br><span>$119.95</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.5" data-y="0.362784" data-width="0.117544" data-height="0.0294511" data-id="367027" ddkey="20630011985711995" data-uid="8199" data-page="1" data-targetx="0.541228" data-targety="0.364143"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367027.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>MICHAEL Michael Kors...<br><span>$105.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.470175" data-y="0.215026" data-width="0.121053" data-height="0.0621762" data-id="367046" ddkey="38644409928428945" data-uid="8222" data-page="7" data-targetx="0.513158" data-targety="0.233179"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367030.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Cara Accessories Mixed Media Bangles...<br><span>$37.90</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.62807" data-y="0.0259067" data-width="0.077193" data-height="0.0621762" data-id="367043" ddkey="38644408895238908" data-uid="8223" data-page="7" data-targetx="0.649123" data-targety="0.0440597"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367043.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Nordstrom Thick Hoop Earrings<br><span>$32.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.447368" data-y="0.0919689" data-width="0.32807" data-height="0.278497" data-id="367044" ddkey="38644407196697725" data-uid="8224" data-page="7" data-targetx="0.593859" data-targety="0.218282"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367044.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Trina Turk &#039;Imma&#039; Draped...<br><span>$138.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.489474" data-y="0.330311" data-width="0.0824561" data-height="0.128238" data-id="367034" ddkey="38644409979422865" data-uid="11878" data-page="4" data-targetx="0.513158" data-targety="0.381481"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367034.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Lana Jewelry &#039;Large Flat -...<br><span>$500.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.00350877" data-y="0.347995" data-width="0.0824561" data-height="0.219922" data-id="367034" ddkey="38644409979422865" data-uid="11879" data-page="5" data-targetx="0.027193" data-targety="0.445021"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367034.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Lana Jewelry &#039;Large Flat -...<br><span>$500.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.563158" data-y="0.504011" data-width="0.0842105" data-height="0.0334225" data-id="367030" ddkey="38644409928428945" data-uid="13152" data-page="1" data-targetx="0.587719" data-targety="0.507356"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367030.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Cara Accessories Mixed Media Bangles...<br><span>$37.90</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.489474" data-y="0.40508" data-width="0.0842105" data-height="0.0334225" data-id="367028" ddkey="38644408610684920" data-uid="13153" data-page="1" data-targetx="0.514035" data-targety="0.408424"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367028.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Cara Accessories Statement Necklace<br><span>$48.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.664912" data-y="0.686529" data-width="0.331579" data-height="0.253886" data-id="367036" ddkey="20630008729790607" data-uid="13154" data-page="4" data-targetx="0.813158" data-targety="0.800523"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367036.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Robert Rodrigue Burnout Cascade Silk Top<br><span>$275.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0" data-y="0.769728" data-width="0.184211" data-height="0.196636" data-id="367041" ddkey="38644408693125634" data-uid="13155" data-page="5" data-targetx="0.0263158" data-targety="0.827854"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367041.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Simon Sebbag Tubular Bangle<br><span>$135.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.136842" data-y="0.645078" data-width="0.403509" data-height="0.255181" data-id="367042" ddkey="38644407389047232" data-uid="13156" data-page="6" data-targetx="0.321053" data-targety="0.75972"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367042.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>ALDO &#039;Hamblet&#039; Pump<br><span>$109.95</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.210526" data-y="0.169689" data-width="0.496491" data-height="0.779793" data-id="367049" ddkey="38644407778842519" data-uid="13157" data-page="8" data-targetx="0.441228" data-targety="0.546636"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367049.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Suzi Chin for Maggy Boutique Print...<br><span>$198.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.598246" data-y="0.199482" data-width="0.0842105" data-height="0.164508" data-id="367048" ddkey="38644408703792182" data-uid="13158" data-page="8" data-targetx="0.610526" data-targety="0.270638"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367048.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>Alexis Bittar &#039;Miss Havisham -...<br><span>$275.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.570175" data-y="0.906736" data-width="0.164912" data-height="0.0906736" data-id="367052" ddkey="38644407884168186" data-uid="13159" data-page="8" data-targetx="0.605263" data-targety="0.941405"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367052.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>B Brian Atwood &#039;Fontanne&#039; Pump<br><span>$350.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.252632" data-y="0.92487" data-width="0.14386" data-height="0.0725389" data-id="367052" ddkey="38644407884168186" data-uid="13160" data-page="8" data-targetx="0.34386" data-targety="0.967303"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367052.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>B Brian Atwood &#039;Fontanne&#039; Pump<br><span>$350.00</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.589474" data-y="0.948254" data-width="0.12807" data-height="0.0452781" data-id="367042" ddkey="38644407389047232" data-uid="13161" data-page="7" data-targetx="0.635965" data-targety="0.957958"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367042.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>ALDO &#039;Hamblet&#039; Pump<br><span>$109.95</span></p>
+            </div>
+          </li>
+
+          <li data-x="0.296491" data-y="0.943079" data-width="0.126316" data-height="0.0543338" data-id="367042" ddkey="38644407389047232" data-uid="13162" data-page="7" data-targetx="0.342105" data-targety="0.957311"  style="display:none;">
+            <div class="image-wrap">
+              <img imageurl="images/products/367042.jpg" src="">
+            </div>
+            <div class="table-wrap">
+              <p>ALDO &#039;Hamblet&#039; Pump<br><span>$109.95</span></p>
+            </div>
+          </li>
+
+        </ul>
+        <div class="push"></div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-wrap">
+          <div class="ie-logo"></div>
+          <div class="view-control-tabs">
+            <div data-type="grid" class="grid"></div>
+            <div data-type="spread" class="spread"></div>
+            <div data-type="fullscreen" class="fullscreen"></div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end wrapper -->
+  </div><!-- end magazine-component -->
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libraries/jquery-1.7.2.min.js">\x3C/script>')</script>
+  <script type="text/javascript" src="js/libraries/jquery.ba-throttle-debounce.min.js"></script>
+  <script type="text/javascript" src="js/libraries/turn.js"></script>
+
+  <script type="text/javascript" src="js/components/fakePages.js"></script>
+  <script type="text/javascript" src="js/components/productMask.js"></script>
+  <script type="text/javascript" src="js/components/productList.js"></script>
+  <script type="text/javascript" src="js/components/productHotspots.js"></script>
+  <script type="text/javascript" src="js/views/spreadView.js"></script>
+  <script type="text/javascript" src="js/views/gridView.js"></script>
+  <script type="text/javascript" src="js/views/fullscreenView.js"></script>
+
+  <script type="text/javascript" src="js/productModel.js"></script>
+  <script type="text/javascript" src="js/pageController.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+</html>
