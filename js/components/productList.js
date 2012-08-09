@@ -84,7 +84,7 @@ glimpse.ProductList.prototype = {
   onProductClick: function(event) {
     var $selectedProduct = $(event.currentTarget);
     
-    if ((this.isTouch || window.navigator.msMaxTouchPoints) && glimpse.ProductModel.productsAreHotspotted()) {
+    if (this.isTouch || window.navigator.msMaxTouchPoints) {
       this.setActiveProduct($selectedProduct);
       this.requestHighlight($selectedProduct);
     }
