@@ -42,5 +42,5 @@ In the `<div class="product-list">` container you'll find a list of product item
 * Once that's done then you should enter your product name/price/thumbnail (40x40 works best).
 
 
-#####Turn.js:
+##### Turn.js:
 * Details on turn.js 4th edition and license information is available at [http://www.turnjs.com/get](http://www.turnjs.com/get) 
